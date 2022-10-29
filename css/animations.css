@@ -1,0 +1,22 @@
+@-webkit-keyframes shiftingTitle {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-moz-keyframes shiftingTitle {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes shiftingTitle {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes newCardFlash {
+  0% { background-color: rgb(145, 189, 255); }
+  100% { background-color: transparent; }
+}

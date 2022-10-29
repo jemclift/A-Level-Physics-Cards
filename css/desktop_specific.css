@@ -1,0 +1,30 @@
+div.frontCardDesktop span {
+  font-size: 2vw;
+}
+
+div.frontCardDesktop:hover .closeButtonDesktop {
+  display: block;
+}
+
+div.frontCardDesktop:hover, div.backCardDesktop:hover {
+  box-shadow: 0 0 0 1px rgb(173, 173, 173) inset;
+}
+
+div.frontCardDesktop:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+div.backCardDesktop:hover {
+  background-color: rgb(174, 250, 174);
+}
+
+.closeButtonDesktop {
+  display: none;
+  width: 2vw;
+  height: 2vw;
+  background-color: transparent;
+}
+
+div.backCardDesktop p{
+  margin-bottom: 0.7vw;
+}

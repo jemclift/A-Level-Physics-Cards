@@ -1,0 +1,33 @@
+/* Mobile Specific */
+
+div.frontCardMobile span {
+  font-size: 6vw;
+}
+
+.closeButtonMobile {
+  display: block;
+  margin: 3vw;
+  width: 8vw;
+  height: 8vw;
+  background-color: rgba(199,199,204,0.5);
+}
+
+div.frontCardMobile, div.backCardMobile {
+  font-size: 3.3vw;
+  padding-left: 4.5vw;
+  padding-right: 4.5vw;
+  padding-top: 3vw;
+  width: 81vw;
+}
+
+div.frontCardMobile {
+  line-height: 2;
+}
+
+div.frontCardMobile span {
+  font-size: 6vw;
+}
+
+div.backCardMobile p{
+  margin-bottom: 2.1vw;
+}

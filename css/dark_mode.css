@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  #cardsWrapper { 
+    background-color: rgb(28,28,30) ;
+    box-shadow: 0 0 0 1px rgb(53, 53, 53) inset, 0 10px 25px rgb(43, 43, 43);
+  }
+
+  div.frontCardDesktop:hover, div.backCardDesktop:hover {
+    box-shadow: 0 0 0 1px rgb(72,72,74) inset;
+  }
+
+  div.frontCardDesktop:hover {
+    background-color: rgb(44,44,46);
+  }
+
+  div.backCard {
+    background-color: rgb(0, 165, 41);
+  }
+
+  div.backCardDesktop:hover {
+    background-color: rgb(0, 134, 34);
+    box-shadow: none;
+  }
+
+  .closeButton {
+    background-image: url("../assets/close_white.svg");
+  }
+
+  .closeButtonDesktop:hover {
+    background-color: rgb(72,72,74);
+  }
+
+  .closeButton:active {
+    background-color: rgb(58,58,60);
+  }
+
+  #hint {
+    color: black; 
+  }
+
+  .closeButtonMobile {
+    background-color: rgb(58,58,60);
+  }
+
+  #reset {
+    box-shadow: 1vw 1vw 0 0 rgb(58,58,60);
+  }
+
+  #reset:active {
+    box-shadow: 0.5vw 0.5vw 0 0 rgb(58,58,60);
+  }
+
+  #logo {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  }
+
+  @keyframes newCardFlash {
+    0% { background-color: rgb(0, 40, 100); }
+    100% { background-color: transparent; }
+  }  
+}
